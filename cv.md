@@ -3,7 +3,7 @@
 ## Frontend Developer
 
 ## Contact information:
-**Phine:** +375 (29) 556 53 65  
+**Phone:** +375 (29) 556 53 65  
 **Email:** bvv-v-94@mail.ru  
 **Telegram:** @viktoriagold1  
 **GitHub:** [dobachv](https://github.com/dobachv)  
@@ -44,9 +44,9 @@ activity)
 
 **SKILLBOX**
 - React.js
-- Веб-вёрстка.
-- Продвинутый уровень JavaScript.
-- Продвинутый уровень TypeScript инструменты разработчика
+- Web layout
+- Advanced JavaScript
+- Advanced TypeScript tool developers
 
 ## Experience
 
