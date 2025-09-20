@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: inherit;
+  }
+
+@font-face {
+	font-family: 'Lato';
+	src: url('./fonts/Lato-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Playfair Display SC';
+	src: url('./fonts/PlayfairDisplaySC-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+  font-family: 'Lato';
+  color: black;
+   background-color: #f0f0f0;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.right-column{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+}
+
+h1{
+  font-family: 'Playfair Display SC'; 
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+h3{
+   font-family: 'Playfair Display SC'; 
+   margin: 0; 
+}
+
+h4,h5{
+  font-family: 'Playfair Display SC'; 
+  margin: 0;
+  text-transform: uppercase;
+}
+
+
+h2{
+font-family: 'Playfair Display SC'; 
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+
+header {
+  position: relative;
+  padding: 60px 60px 0 60px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  flex-direction: column; 
+  background-color: #f0f0f0; 
+  overflow: hidden;  
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; 
+  height: 50%; 
+  background-color: pink; 
+}
+
+img {
+  display: block; 
+  max-width: 100%;
+  height: auto; 
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    fill: rgb(163, 85, 98)
+}
+
+main{
+    padding: 20px;
+}
+
+hr{
+  width: 100%;
+  color: pink;
+  margin-bottom: 20px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;  
+}
+ 
+li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+section{
+    margin-bottom: 30px;
+}
+
+.skills li, .contact li{
+    flex-direction: row;
+}
