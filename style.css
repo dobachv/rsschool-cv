@@ -46,26 +46,26 @@ p{
 }
 
 h1{
-  font-family: 'Playfair Display SC'; 
+  font-family: 'Playfair Display SC';
   text-transform: uppercase;
   margin: 0;
   text-align: center;
 }
 
 h3{
-   font-family: 'Playfair Display SC'; 
+   font-family: 'Playfair Display SC';
    margin: 0; 
 }
 
 h4,h5{
-  font-family: 'Playfair Display SC'; 
+  font-family: 'Playfair Display SC';
   margin: 0;
   text-transform: uppercase;
 }
 
 
 h2{
-font-family: 'Playfair Display SC'; 
+font-family: 'Playfair Display SC';
   text-transform: uppercase;
   margin: 0 0 15px 0;
   text-align: center;
@@ -76,11 +76,11 @@ header {
   position: relative;
   padding: 60px 60px 0 60px;
   display: flex;
-  justify-content: center; 
-  align-items: center;    
-  flex-direction: column; 
-  background-color: #f0f0f0; 
-  overflow: hidden;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  overflow: hidden;
 }
 
 header::before {
